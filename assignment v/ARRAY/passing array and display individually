@@ -1,0 +1,26 @@
+// passing an array individually.
+
+#include <stdio.h>
+#include <conio.h>
+int passing(int a);
+
+int main(){
+	int i,arr[10];
+	printf("\nEnter 10 numbers\n");
+	for (i=0;i<10;i++){
+		printf("==>");
+		scanf("%d",&arr[i]);
+	}
+	
+	printf("\nThe 10 numbers : ");
+	
+	for(i=0;i<10;i++){
+		passing(arr[i]);
+	}
+}
+
+int passing(int a){
+	printf(" %d ",a);
+	getch();
+}
+	
