@@ -34,6 +34,5 @@ int main(){
         printf("%d\t\t%.2f\t\t%p\n",i,*(new_arr+i),new_arr+i);
     }
     
-    return 0;
-
-}copy
+    return 0
+    }
